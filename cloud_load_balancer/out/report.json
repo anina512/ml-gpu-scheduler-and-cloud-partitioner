@@ -1,0 +1,220 @@
+{
+  "expA_plot": "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/expA_lookup_scaling.png",
+  "expA_data": [
+    {
+      "servers": 1000,
+      "kd_time": 0.0843815803527832,
+      "brute_time": 1.20589017868042
+    },
+    {
+      "servers": 3000,
+      "kd_time": 0.0843055248260498,
+      "brute_time": 3.5675153732299805
+    },
+    {
+      "servers": 6000,
+      "kd_time": 0.07406306266784668,
+      "brute_time": 7.510321617126465
+    },
+    {
+      "servers": 12000,
+      "kd_time": 0.09560012817382812,
+      "brute_time": 15.18449068069458
+    }
+  ],
+  "expB_plot": "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/expB_failure_tolerance.png",
+  "expB_data": [
+    {
+      "frac_down": 0.0,
+      "success_rate": 1.0
+    },
+    {
+      "frac_down": 0.02,
+      "success_rate": 1.0
+    },
+    {
+      "frac_down": 0.05,
+      "success_rate": 1.0
+    },
+    {
+      "frac_down": 0.1,
+      "success_rate": 1.0
+    },
+    {
+      "frac_down": 0.2,
+      "success_rate": 1.0
+    }
+  ],
+  "expC_plot": "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/expC_diurnal_latency.png",
+  "expC_data": [
+    {
+      "hour": 0,
+      "mean_distance_proxy": 0.9637774582641725
+    },
+    {
+      "hour": 1,
+      "mean_distance_proxy": 0.9610699397299266
+    },
+    {
+      "hour": 2,
+      "mean_distance_proxy": 0.9624126626260173
+    },
+    {
+      "hour": 3,
+      "mean_distance_proxy": 0.9630538078028266
+    },
+    {
+      "hour": 4,
+      "mean_distance_proxy": 0.9605283907093426
+    },
+    {
+      "hour": 5,
+      "mean_distance_proxy": 0.9255017290288624
+    },
+    {
+      "hour": 6,
+      "mean_distance_proxy": 0.9336079293821046
+    },
+    {
+      "hour": 7,
+      "mean_distance_proxy": 0.9132802433903467
+    },
+    {
+      "hour": 8,
+      "mean_distance_proxy": 0.8991479577964869
+    },
+    {
+      "hour": 9,
+      "mean_distance_proxy": 0.8713604970616872
+    },
+    {
+      "hour": 10,
+      "mean_distance_proxy": 0.8673559336768876
+    },
+    {
+      "hour": 11,
+      "mean_distance_proxy": 0.8417927315327413
+    },
+    {
+      "hour": 12,
+      "mean_distance_proxy": 0.8390003770954308
+    },
+    {
+      "hour": 13,
+      "mean_distance_proxy": 0.8131449650455023
+    },
+    {
+      "hour": 14,
+      "mean_distance_proxy": 0.8027677374795874
+    },
+    {
+      "hour": 15,
+      "mean_distance_proxy": 0.7912842174111466
+    },
+    {
+      "hour": 16,
+      "mean_distance_proxy": 0.832171579770795
+    },
+    {
+      "hour": 17,
+      "mean_distance_proxy": 0.8410702481269485
+    },
+    {
+      "hour": 18,
+      "mean_distance_proxy": 0.8660170005546185
+    },
+    {
+      "hour": 19,
+      "mean_distance_proxy": 0.8621555598784494
+    },
+    {
+      "hour": 20,
+      "mean_distance_proxy": 0.8807839666740745
+    },
+    {
+      "hour": 21,
+      "mean_distance_proxy": 0.8981221446435632
+    },
+    {
+      "hour": 22,
+      "mean_distance_proxy": 0.9323671483253295
+    },
+    {
+      "hour": 23,
+      "mean_distance_proxy": 0.9359091736942385
+    }
+  ],
+  "expD_plots": [
+    "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/build_time_vs_n.png",
+    "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/build_time_over_nlogn.png"
+  ],
+  "expD_data": [
+    {
+      "servers": 800,
+      "build_time": 0.0009632110595703125,
+      "normalized": 1.8011724143668955e-07
+    },
+    {
+      "servers": 2000,
+      "build_time": 0.003123760223388672,
+      "normalized": 2.0548614062710018e-07
+    },
+    {
+      "servers": 4000,
+      "build_time": 0.007041454315185547,
+      "normalized": 2.1224415758075109e-07
+    },
+    {
+      "servers": 8000,
+      "build_time": 0.021189212799072266,
+      "normalized": 2.947138749420357e-07
+    }
+  ],
+  "expE_plot": "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/query_time_normalized.png",
+  "expE_data": [
+    {
+      "servers": 800,
+      "kd_per_over_log": 7.3809429976853334e-06,
+      "br_per_over_n": 6.367827455202739e-07
+    },
+    {
+      "servers": 1500,
+      "kd_per_over_log": 5.555597298929601e-06,
+      "br_per_over_n": 6.111868222554525e-07
+    },
+    {
+      "servers": 2500,
+      "kd_per_over_log": 5.904359946582534e-06,
+      "br_per_over_n": 6.867459615071615e-07
+    }
+  ],
+  "expF_plot": "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/optimality_gap_hist.png",
+  "expF_summary": {
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0
+  },
+  "expG_plot": "C:\\AOA\\Project1\\ml-gpu-scheduler-and-cloud-partitioner\\cloud_load_balancer\\out/tree_depth_vs_logn.png",
+  "expG_data": [
+    {
+      "servers": 800,
+      "avg_depth": 9.0,
+      "log2n": 9.643856189774725
+    },
+    {
+      "servers": 2000,
+      "avg_depth": 10.0,
+      "log2n": 10.965784284662087
+    },
+    {
+      "servers": 4000,
+      "avg_depth": 11.0,
+      "log2n": 11.965784284662087
+    },
+    {
+      "servers": 8000,
+      "avg_depth": 12.0,
+      "log2n": 12.965784284662087
+    }
+  ]
+}
