@@ -35,7 +35,7 @@ This work is based on the full report included in the project, covering proofs, 
 
 ---
 
-# 1. ✅ Greedy GPU Scheduler
+# 1. Greedy GPU Scheduler
 
 ### Problem
 Given:
@@ -73,7 +73,7 @@ python greedy_gpu_scheduler/greedy_gpu_budget_experiments.py
 
 ---
 
-# 2. ✅ Divide-and-Conquer Cloud Load Balancer
+# 2. Divide-and-Conquer Cloud Load Balancer
 
 ### Problem
 Route client requests `(lat, lon, size)` to a set of distributed servers with:
@@ -102,7 +102,7 @@ python -m cloud_load_balancer.main
 
 ---
 
-# ✅ Installation
+# Installation
 
 ```bash
 git clone https://github.com/anina512/ml-gpu-scheduler-and-cloud-partitioner
@@ -114,7 +114,7 @@ Python ≥ 3.8 recommended.
 
 ---
 
-# ✅ Reproducing All Experiments
+# Reproducing All Experiments
 
 ```bash
 python -m cloud_load_balancer.main
@@ -122,23 +122,6 @@ python greedy_gpu_scheduler/greedy_gpu_budget_experiments.py
 ```
 
 Outputs appear in `out/`.
-
----
-
-# ✅ Citation
-
-```
-Manne, G. C., & Pillai, A. (2025).
-Greedy Optimization and Divide-and-Conquer Spatial Partitioning:
-Two Real-World Algorithmic Solutions for GPU Scheduling and Cloud Load Balancing.
-University of Florida.
-```
-
----
-
-# ✅ LLM Use Disclosure
-Portions of this repository’s documentation—including text formatting and structural editing—were supported by a large language model (LLM).  
-All algorithms, implementations, experiments, and analyses were created and validated by the project authors.
 
 ---
 
